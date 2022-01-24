@@ -1,0 +1,11 @@
+framework module mlframework {
+  umbrella header "mlframework.h"
+
+  export *
+  module * { export * }
+}
+
+module mlframework.Swift {
+    header "mlframework-Swift.h"
+    requires objc
+}
